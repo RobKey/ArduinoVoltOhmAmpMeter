@@ -13,7 +13,7 @@ this project came about because many people in the Arduino community asking for 
  </br>
  
  </br>
- The following code will display the voltage on input A0 pin.
+ The following code will display the voltage on input A0 pin in Serial Monitor.
  <pre>
  
  void setup()
