@@ -15,6 +15,7 @@ this project came about because many people in the Arduino community asking for 
  </br>
  The following code will display the voltage on input A0 pin.
  <pre>
+ 
  void setup()
 {
   pinMode(A0, INPUT);
@@ -23,7 +24,6 @@ this project came about because many people in the Arduino community asking for 
  
 void loop()
 {
-
   Serial.print("A0 ");
   Serial.println((0.00488758555327 * analogRead(A0)),3);
   delay(300); // Wait for millisecond(s)
