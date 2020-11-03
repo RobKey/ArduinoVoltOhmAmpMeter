@@ -13,5 +13,11 @@ this project came about because many people in the Arduino community ask for hel
  </br>
  
  </br>
+ 
+ <pre>
+ float sensorValue = 0;
+ float volts;
+ 
+ </pre>
  </br></br></br></br></br></br></br></br></br></br></br>
 
