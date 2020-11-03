@@ -17,6 +17,23 @@ this project came about because many people in the Arduino community ask for hel
  <pre>
  float sensorValue = 0;
  float volts;
+ void setup()
+{
+  pinMode(A0, INPUT);
+  pinMode(A1, INPUT);
+  Serial.begin(9600);
+}
+ 
+void loop()
+{
+  // read the value from the sensor
+  sensorValue = analogRead(A0);
+  volts = 0.00488758555327 * sensorValue;
+  Serial.print("A0 ");
+  Serial.println(volts,3);
+  delay(300); // Wait for millisecond(s)
+} 
+ 
  
  </pre>
  </br></br></br></br></br></br></br></br></br></br></br>
