@@ -21,7 +21,6 @@ this project came about because many people in the Arduino community asking for 
   pinMode(A0, INPUT);
   Serial.begin(9600);
 }
- 
 void loop()
 {
   Serial.print("A0 ");
