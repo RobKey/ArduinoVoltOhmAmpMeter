@@ -5,9 +5,9 @@ Arduino Volt Ohm Amp Meter
  
 This repo has basic easy to use volt, ohm, and amp meters that can be used to test you build and its components.</br>
 It also includes complete multimeter combining all three functions</br>
-</br></br>
+</br>
 
- disclaimer any voltage is applied to your Arduino bust must be within manufacturers specifications excessive voltages May damage your equipment</br></br>
+ disclaimer any voltage is applied to your Arduino bust must be within manufacturers specifications excessive voltages May damage your equipment</br>
 
 
  </br>
