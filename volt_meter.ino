@@ -24,7 +24,6 @@ void loop()
   Serial.println(" volts ");
   // turn the LED on
   digitalWrite(13, HIGH);
-  delay(sensorValue); // Wait for sensorValue millisecond(s)
+  delay(300); // Wait for sensorValue millisecond(s)
 
-  delay(sensorValue); // Wait for sensorValue millisecond(s)
 }
